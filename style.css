@@ -36,25 +36,13 @@
     width: 30%;
 }
 
-.go,.bt ,.tt{
+.go,.bt ,.tt , .Video{
     animation: anime 1s infinite ease-in-out alternate;
 }
 @keyframes anime {
     100%{
         transform: translateY(20px);
     }
-}
-
-.log{
-    display: none;
-}
-.log-item{
-    display: flex;
-    padding: 10px;
-    gap: 8px;
-}
-.log .log-item img{
-    width: 100%;
 }
 .tt img{
     width: 50%;
@@ -67,6 +55,9 @@
     bottom:20px;
     left: 0;
 }
-.body{
+.body1{
     overflow: hidden;
+}
+.bg1{
+    display:none;
 }
