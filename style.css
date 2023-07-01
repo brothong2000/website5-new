@@ -35,18 +35,7 @@
 .bt img {
     width: 30%;
 }
-.t-pro{
-    display: flex;
-    justify-content: center;
-    /* position: fixed; */
-    /* bottom: 0; */
-    
-}
-.t-pro img{
-    width: 50%;
-    display: block;
-    margin-top:50%;
-}
+
 .go,.bt ,.tt{
     animation: anime 1s infinite ease-in-out alternate;
 }
@@ -66,4 +55,18 @@
 }
 .log .log-item img{
     width: 100%;
+}
+.tt img{
+    width: 50%;
+}
+.container{
+    position: relative;
+}
+.tt{
+    position: absolute;
+    bottom:20px;
+    left: 0;
+}
+.body{
+    overflow: hidden;
 }
