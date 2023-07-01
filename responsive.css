@@ -66,6 +66,13 @@
         z-index: -1;
         display: none;
     }
+    .mt-5 {
+        margin-top: 1rem!important;
+    }
+    .col-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
     .col-8 {
         flex: 0 0 auto;
         width: 100%;
@@ -80,7 +87,7 @@
         width: 25%;
     }
     .go img {
-        width: 70%;
+        width: 60%;
     }
     .bt img {
         width: 50%;
@@ -103,15 +110,8 @@
 .menu-1{
     display: none;
 }
-.head-two{
-    display: flex;
-    justify-content: space-between;
-}
-.t-pro img{
-    width: 100%;
-}
 
-}
+} 
 @media (min-width: 481px) and (max-width: 767px){
     .body{
         overflow:hidden;
@@ -120,7 +120,6 @@
         background-size: cover;
         min-width: 100%;
         min-height: 100%;
-        /* background-size: contain; */
     }
     #myVideo {
         position: fixed;
@@ -131,6 +130,13 @@
         z-index: -1;
         display: none;
     }
+    .mt-5 {
+        margin-top: 1rem!important;
+    }
+    /* .col-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    } */
     .col-8 {
         flex: 0 0 auto;
         width: 100%;
@@ -138,14 +144,14 @@
     .header-one .logo img {
         width: 100%;
     }
-    .header-one .menu-1 img {
-        width: 33%;
+    .header-one .menu-1 img{
+        width: 30%;
     }
     .header-one .menu-2 img {
         width: 25%;
     }
     .go img {
-        width: 50%;
+        width: 60%;
     }
     .bt img {
         width: 50%;
@@ -160,21 +166,15 @@
         100%{
             transform: translateY(10px);
         }
-    }
-    /* .log{
-        display: block;
-    }
-    .menu-1{
-        display: none;
-    }
-    .head-two{
-        display: flex;
-        justify-content: space-between;
-    } */
-    .t-pro img{
-        width: 100%;
-        margin-top:60%;
-    }
+    
+}
+.log{
+    display:none;
+}
+.menu-1{
+    display:block;
+}
+
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .body{
@@ -226,10 +226,7 @@
         }
         
 }
-.t-pro img{
-    width: 100%;
-    margin-top:60%;
-}
+
 }
 @media (min-width: 1025px) and (max-width: 1280px){
     .body{
@@ -280,8 +277,5 @@
             transform: translateY(15px);
         }
 }
-.t-pro img{
-    width: 100%;
-    margin-top:60%;
-}
+
 }
